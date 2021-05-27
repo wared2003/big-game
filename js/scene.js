@@ -114,9 +114,9 @@
 
 
 
-        camera.position.z = 2;
-        camera.position.y = 2;
-        camera.rotation.x = -0.75;
+        camera.position.z = -1;
+        camera.position.x = -1;
+        camera.position.y = 0.2;
         controls.update();
 
         const animate = function () {

@@ -1,7 +1,84 @@
+/* -------------------------------------------------------------------------- */
+/*                                  generale                                  */
+/* -------------------------------------------------------------------------- */
+
 body{
     margin: 0;
 }
-.three-canvas{
-    height: 500px;
-    width: 100%;
+.bg-creme{
+    background-color: #d4ccb5;
 }
+/* -------------------------------------------------------------------------- */
+/*                                    three                                   */
+/* -------------------------------------------------------------------------- */
+
+canvas{
+    display: block;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   main                                     */
+/* -------------------------------------------------------------------------- */
+
+/* ----------------------------------- nav ---------------------------------- */
+
+nav img{
+    height: 50px;
+}
+nav ul{
+    text-align: center;
+}
+
+/* -------------------------------- carousel -------------------------------- */
+
+div#gallery {
+	perspective: 1200px;
+}
+figure#spinner {
+	transform-style: preserve-3d;
+	min-height: 122px;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50% -500px;
+	transition: 1s;
+}
+figure#spinner div {
+	width: 40%;
+	position: absolute;
+	left: 30%;
+	transform-origin-z: 50% 50% -500px;
+	outline: 1px solid transparent;
+    background-color: aqua;
+}
+
+figure#spinner div:nth-child(1) {
+	transform: rotateY(0deg);
+}
+figure#spinner div:nth-child(2) {
+	transform: rotateY(-45deg);
+}
+figure#spinner div:nth-child(3) {
+	transform: rotateY(-90deg);
+}
+figure#spinner div:nth-child(4) {
+	transform: rotateY(-135deg);
+}
+figure#spinner div:nth-child(5) {
+	transform: rotateY(-180deg);
+}
+figure#spinner div:nth-child(6) {
+	transform: rotateY(-225deg);
+}
+figure#spinner div:nth-child(7) {
+	transform: rotateY(-270deg);
+}
+figure#spinner div:nth-child(8) {
+	transform: rotateY(-315deg);
+}
+#about{
+    display: block;
+}
+
+
+
+/* beige => #d4ccb5 */
+/* noir anthracite => #201d1e */
